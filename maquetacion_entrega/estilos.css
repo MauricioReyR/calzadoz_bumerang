@@ -1,0 +1,40 @@
+body{
+background-color: #DAC8BE;
+text-decoration-color:#ecc1a1;
+}
+
+.cover{
+    height: 15 0px;
+    background-color: #58626c;
+    color: #DAC8BE;
+}
+.card{
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.05);
+    display: flex;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  nav{
+    margin-top: 1px;
+    background-color: #ecc1a1;
+  }
+  .page-footer{
+    margin-top: 1px;
+    background-color: #58626c;    
+  }
+  .footer-copyright{
+    margin-top:0.5px;
+    background-color: #58626c;
+ }
+  
+ 

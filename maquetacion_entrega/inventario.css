@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/imagenes/logo_2.jpg');
+}
+.form-registro{
+    width: 350px;
+    background: #ecc1a1;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: #58626c;
+    box-shadow: 7px 13px 37px #58626c;
+}
+.form-registro h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+    
+}
+.controles{
+    width: 100%;
+    background: #DAC8BE;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ecc1a1;
+    font-family: 'calibri';
+    font-size: 18px;
+    text-align: center;
+}
+.form-registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+.form-registro a{
+    color:#58626c;
+    text-decoration: none;
+}
+.form-registro a:hoover {
+    color:#ecc1a1;
+    text-decoration: underline;
+}
+.form-registro .boton{
+    width: 100%;
+    border: none;
+    padding: 12px;
+    color:#58626c;
+    margin: 16px 0;
+    font-size: 16px;
+}

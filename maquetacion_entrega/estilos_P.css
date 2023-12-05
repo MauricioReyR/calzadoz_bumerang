@@ -1,0 +1,46 @@
+
+*{
+    box-sizing: border-box;
+    background-color: #58626c;
+}
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h2{
+    text-decoration: #ecc1a1;
+}
+img{
+    width: 100%;
+    overflow: hidden;
+}
+img:hover{
+    transform: scale(2);
+}
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+.column img{
+    margin-top: 5px;
+}
+
+/*esta se supone que hace que salte a la otra columna*/
+/*pero no se por qe no esta trabajando evsar despues..*/
+@media(max-whith: 800px){
+    .column{
+        flex: 50%;
+    }
+}
+
+@media (max-whith: 600px){
+    .column{
+        flex: 100%;
+    }
+}
